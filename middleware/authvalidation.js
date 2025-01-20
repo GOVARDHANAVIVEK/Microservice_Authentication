@@ -19,6 +19,7 @@ const verifyDetails =(req,res,next)=>{
     if(username.length <8){
         return res.status(400).send({ error: 'Username must be at least 8 characters' });
     }
+    
     next();
 }
 
