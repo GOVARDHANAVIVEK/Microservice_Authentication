@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const auth = require('./routes/auth')
-const dashboardRouter = require('./routes/dashboard')
+
 const dotenv = require('dotenv')
 dotenv.config()
 app.use(express.json())
