@@ -16,9 +16,7 @@ const verifyToken = (req,res,next)=>{
 
 }
 
-const roles=['Project_Manager','Team Member','Admin']
+const roles=['Project_Manager','Team_Member','Admin']
 
-const verifyRole = (req,res,next) =>{
 
-}
 module.exports =verifyToken
